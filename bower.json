@@ -1,0 +1,23 @@
+{
+  "name": "portifolio-renato",
+  "description": "",
+  "main": "",
+  "authors": [
+    "renato <renatosvo@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "components-font-awesome": "^4.7.0",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}

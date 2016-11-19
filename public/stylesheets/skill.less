@@ -1,0 +1,157 @@
+
+
+
+#skill-measurements #skill-measurements-body .skill-measurement-card:hover {
+  text-decoration: none;
+  background: @smoky-black;
+}
+#skill-measurements #skill-measurements-body .skill-measurement-card {
+  background-color: #222;
+  width: 100%;
+  margin-bottom: 24px;
+  display: inline-block;
+  vertical-align: top;
+
+
+}
+
+#skill-measurements #skill-measurements-body .skill-measurement-card:not(:nth-child(4n)) {
+  //margin-right: 24px
+}
+
+#skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-header {
+  text-align: center
+}
+
+#skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-header img {
+  margin-bottom: -7px;
+  max-width: 100%;
+  width: 144px
+}
+
+#skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-header h3 {
+  color: #aaa;
+  margin: -24px auto 16px;
+  padding: 0 16px;
+  max-width: 300px;
+  font-size: 20px;
+  font-weight: 100;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+#skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-stats {
+  padding: 4px 16px 16px;
+  color: #aaa;
+  font-size: 12px
+}
+
+#skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-stats .level {
+  font-weight: 700
+}
+
+#skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-stats .level.expert {
+  color: #26c1fb
+}
+
+#skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-stats .level.proficient {
+  color: #86ce21
+}
+
+#skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-stats .level.novice {
+  color: #ffc200
+}
+
+#skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-stats span {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700
+}
+
+@media (max-width: 1200px) {
+  #skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-header h3 {
+    font-size: 16px
+  }
+
+  #skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-stats {
+    font-size: 13px
+  }
+}
+
+@media (max-width: 1160px) {
+  #skill-measurements #skill-measurements-body .skill-measurement-card {
+    //width: calc(50% - 12px)
+  }
+
+  #skill-measurements #skill-measurements-body .skill-measurement-card:not(:nth-child(4n)) {
+    margin-right: 0
+  }
+
+  #skill-measurements #skill-measurements-body .skill-measurement-card:not(:nth-child(2n)) {
+    margin-right: 24px
+  }
+
+  #skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-header h3 {
+    font-size: 18px
+  }
+
+  #skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-stats {
+    font-size: 14px
+  }
+}
+
+@media (max-width: 600px) {
+  #skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-header h3 {
+    font-size: 16px
+  }
+
+  #skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-stats {
+    font-size: 13px
+  }
+}
+
+@media (max-width: 485px) {
+  #skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-header h3 {
+    font-size: 16px
+  }
+
+  #skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-stats {
+    font-size: 10px;
+    line-height: 1.5
+  }
+
+  #skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-stats .level, #skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-stats span {
+    font-size: 12px
+  }
+}
+
+@media (max-width: 410px) {
+  #skill-measurements #skill-measurements-body .skill-measurement-card {
+    display: flex;
+    flex-direction: row;
+    width: 100%
+  }
+
+  #skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-header {
+    width: 40%
+  }
+
+  #skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-header h3 {
+    font-size: 14px
+  }
+
+  #skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-stats {
+    padding: 8px;
+    font-size: 12px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+  }
+
+  #skill-measurements #skill-measurements-body .skill-measurement-card .skill-measurement-stats span {
+    font-size: 13px
+  }
+}
+
