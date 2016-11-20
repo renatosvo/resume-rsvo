@@ -5,11 +5,13 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var hbs = require('hbs');
+var compression = require('compression');
 
 var index = require('./routes/index');
 
 var app = express();
 
+app.use(compression());
 
 //handlebars partials
 hbs.registerPartials(__dirname+'/views/partials/ptBR');
