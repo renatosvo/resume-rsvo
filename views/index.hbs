@@ -16,7 +16,7 @@
         </div><!--//education-container-->
 
         <div class="languages-container container-block">
-            {{>languages}}
+            {{>languages this}}
         </div><!--//interests-->
 
         <!--<div class="interests-container container-block">
@@ -39,20 +39,9 @@
     <div class="main-wrapper">
 
         <section class="section summary-section">
-            <h2 class="section-title"><i class="fa fa-user"></i>Perfil</h2>
+            <h2 class="section-title"><i class="fa fa-user"></i>{{sections.profile.title}}</h2>
             <div class="summary">
-                <p>Desenvolvedor web desde o inicio da carreira, gosto de participar de todas as áreas envolvendo o
-                    funcionamento de um sistema na nuvem( arquitetura de servidores, escolha de tecnologias, design de
-                    código, design do banco de dados, web Design, desenvolvimento e implementação, C.I. etc ) , tentando
-                    aprender um pouco sobre todas as etapas para garantir o minimo diálogo entre as pessoas envolvidas
-                    no projeto e também como satisfação e crescimento pessoal.
-                    <br /><br />
-                    Gosto e estou sempre disposto a novos desafios que me tragam novos conhecimentos, momentos de
-                    frustração pessoal e risos.
-                    <br /><br />
-                    Procuro criar um código de qualidade, estudando Design Patterns e os revisando sempre que
-                    necessário. Me preocupo sempre com performance,disponibilidade, custo operacional e experiência do
-                    usuário, mantendo um bom equilíbrio entre eles.</p>
+                <p>{{{sections.profile.content}}}</p>
             </div><!--//summary-->
         </section><!--//section-->
 

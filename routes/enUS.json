@@ -1,0 +1,74 @@
+{
+  "sections" :{
+    "profile": {
+      "title": "CAREER PROFILE",
+      "content": "Web Developer with 6 years of experience, dealing with Front and Back End tasks. <br/ ><br/ > I like to be in touch with every aspect of a system, from System analysis to Operations and maintenance, learning new things and moving foward. Always open for new challenges and with great emphasis on code quality, performance, cost and user experience, I... love what i do.",
+      "other": 0
+    },
+    "experiencia" : {
+      "title": "EXPERIENCES",
+      "list": [{
+        "cargo": "Full Stack Intermediate Java Developer",
+        "location": "SupportComm, São Paulo - SP",
+        "periodo": "junho 2016 - Atual",
+        "descricao" : ""
+      },{
+        "cargo": "Intermediate Java Developer",
+        "location": "Entelgy, São Paulo - SP",
+        "periodo": "December 2015 – May 2016 (6 months)",
+        "descricao" : "Desenvolvedor Liferay, personalização de portais, criação e manutenção de portlets, temas e hooks"
+      },{
+        "cargo": "Java Developer",
+        "location": "Prodesan, Santos - SP",
+        "periodo": "June 2014 – November 2015 (1 year and 6 months)",
+        "descricao" : "Desenvolvimento de sistemas voltado para educação, gestão de Escolas, funcionários e alunos - Sistema Integrado de Gestão Escolar (SIGES). Desenvolvido em Java rodando sobre Jboss 6.2. Responsavel pela criação de testes, análise de código e bugs."
+      },{
+        "cargo": "Engenheiro de Software Pleno",
+        "location": "RedDrummer, São Paulo - SP",
+        "periodo": "August 2011 – May 2014 (2 years and 10 months)",
+        "descricao" : "Desenvolvimento de sistema voltado para gestão dos relacionamentos sociais e de inteligência de empresas. Desenvolvimento de sistemas de estatística e estratégia. Manutenção de servidores de aplicação e banco de dados."
+      },{
+        "cargo": "Estagiario em Desenvolvimento Java EE",
+        "location": "Prodesan, Santos - SP",
+        "periodo": "June 2010 – May 2011 (1 year)",
+        "descricao" : ""
+      }]
+    },
+    "projects":{
+      "title" : "PROJECTS",
+      "list": [{
+        "title": "Serralheria Anthares",
+        "url":"http://www.serralheriaanthares.com.br/",
+        "descricao": "Responsive website to promote company brand"
+      }]
+    },
+    "skills":{
+      "title": "SKILLS & PROFICIENCY - BY PLURALSIGHT"
+    },
+
+    "formacao": {
+      "title" : "EDUCATION",
+      "list": [{
+        "title": "Análise e Desenvolvimento de Sistemas",
+        "location":"FATEC - Rubens Lara - Baixada Santista",
+        "periodo": "2009 - 2012"
+      },{
+        "title": "Tecnico Desenvolvimento de Sistemas Comerciais",
+        "location":"IFSP - Cubatão",
+        "periodo": "2008 - 2009"
+      }]
+    },
+    "lingua":{
+      "title": "LANGUAGES",
+      "list": [{
+        "title":"Portuguese",
+        "level": "Native"
+      },{
+        "title":"English",
+        "level": "Professional"
+      }]
+    }
+
+
+  }
+}

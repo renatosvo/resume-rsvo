@@ -14,7 +14,7 @@ var app = express();
 app.use(compression());
 
 //handlebars partials
-hbs.registerPartials(__dirname+'/views/partials/ptBR');
+hbs.registerPartials(__dirname+'/views/partials');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
