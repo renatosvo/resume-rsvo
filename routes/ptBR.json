@@ -40,10 +40,14 @@
         "title": "Serralheria Anthares",
         "url":"http://www.serralheriaanthares.com.br/",
         "descricao": "Site responsivo desenvolvido para promoção da empresa"
+      },{
+        "title": "Vivo dDivulga",
+        "url":"http://vivo.ddivulga.com/",
+        "descricao": "Solução de marketing e publicidade que oferece como benefício ao consumidor final, pacotes de internet grátis."
       }]
     },
     "skills":{
-      "title": "HABILIDADES & COMPETÊNCIA - BY PLURALSIGHT"
+      "title": "HABILIDADES & COMPETÊNCIA - por <a href='https://app.pluralsight.com/profile/renato-souzavazdeoli' target='_blank' class='url' itemprop='url'>PLURALSIGHT</a>"
     },
 
     "formacao": {
@@ -67,6 +71,11 @@
         "title":"Inglês",
         "level": "Avançado"
       }]
+    },
+    "translate":{
+      "url": "/en",
+      "flag": "images/us-icon-small.png",
+      "reflang": "en-us"
     }
 
 
