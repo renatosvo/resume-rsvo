@@ -1,0 +1,20 @@
+<h2 class="section-title"><i class="fa fa-briefcase"></i>{{sections.experiencia.title}}</h2>
+
+
+{{#each sections.experiencia.list}}
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">{{cargo}}</h3>
+                <div class="time">{{periodo}}</div>
+            </div><!--//upper-row-->
+            <div class="company">{{location}}</div>
+        </div><!--//meta-->
+        <div class="details">
+            <p>{{descricao}}</p>
+        </div><!--//details-->
+    </div><!--//item-->
+{{/each}}
+
+
+

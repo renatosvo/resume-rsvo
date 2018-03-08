@@ -1,0 +1,83 @@
+{
+  "sections" :{
+    "profile": {
+      "title": "PERFIL",
+      "content": "Desenvolvedor web desde o inicio da carreira, gosto de participar de todas as áreas envolvendo o funcionamento de um sistema na nuvem( arquitetura de servidores, escolha de tecnologias, design de código, design do banco de dados, web Design, desenvolvimento e implementação, C.I. etc ) , tentando aprender um pouco sobre todas as etapas para garantir o minimo diálogo entre as pessoas envolvidas no projeto e também como satisfação e crescimento pessoal. <br/><br/> Gosto e estou sempre disposto a novos desafios que me tragam novos conhecimentos, momentos de frustração pessoal e risos. <br/><br/>Procuro criar um código de qualidade, estudando Design Patterns e os revisando sempre que necessário. Me preocupo sempre com performance,disponibilidade, custo operacional e experiência do usuário, mantendo um bom equilíbrio entre eles.",
+      "other": 0
+    },
+    "experiencia" : {
+      "title": "EXPERIÊNCIA",
+      "list": [{
+        "cargo": "Desenvolvedor Java Pleno Full Stack",
+        "location": "SupportComm, São Paulo - SP",
+        "periodo": "junho 2016 - Atual",
+        "descricao" : ""
+      },{
+        "cargo": "Desenvolvedor Java Pleno",
+        "location": "Entelgy, São Paulo - SP",
+        "periodo": "dezembro de 2015 – maio de 2016 (6 meses)",
+        "descricao" : "Desenvolvedor Liferay, personalização de portais, criação e manutenção de portlets, temas e hooks"
+      },{
+        "cargo": "Desenvolvedor Java",
+        "location": "Prodesan, Santos - SP",
+        "periodo": "junho de 2014 – novembro de 2015 (1 ano 6 meses)",
+        "descricao" : "Desenvolvimento de sistemas voltado para educação, gestão de Escolas, funcionários e alunos - Sistema Integrado de Gestão Escolar (SIGES). Desenvolvido em Java rodando sobre Jboss 6.2. Responsavel pela criação de testes, análise de código e bugs."
+      },{
+        "cargo": "Engenheiro de Software Pleno",
+        "location": "RedDrummer, São Paulo - SP",
+        "periodo": "agosto de 2011 – maio de 2014 (2 anos 10 meses)",
+        "descricao" : "Desenvolvimento de sistema voltado para gestão dos relacionamentos sociais e de inteligência de empresas. Desenvolvimento de sistemas de estatística e estratégia. Manutenção de servidores de aplicação e banco de dados."
+      },{
+        "cargo": "Estagiario em Desenvolvimento Java EE",
+        "location": "Prodesan, Santos - SP",
+        "periodo": "junho de 2010 – maio de 2011 (1 ano)",
+        "descricao" : ""
+      }]
+    },
+    "projects":{
+      "title" : "PROJETOS",
+      "list": [{
+        "title": "Serralheria Anthares",
+        "url":"http://www.serralheriaanthares.com.br/",
+        "descricao": "Site responsivo desenvolvido para promoção da empresa"
+      },{
+        "title": "Vivo dDivulga",
+        "url":"http://vivo.ddivulga.com/",
+        "descricao": "Solução de marketing e publicidade que oferece como benefício ao consumidor final, pacotes de internet grátis."
+      }]
+    },
+    "skills":{
+      "title": "HABILIDADES & COMPETÊNCIA - por <a href='https://app.pluralsight.com/profile/renato-souzavazdeoli' target='_blank' class='url' itemprop='url'>PLURALSIGHT</a>"
+    },
+
+    "formacao": {
+      "title" : "Formação",
+      "list": [{
+        "title": "Análise e Desenvolvimento de Sistemas",
+        "location":"FATEC - Rubens Lara - Baixada Santista",
+        "periodo": "2009 - 2012"
+      },{
+        "title": "Tecnico Desenvolvimento de Sistemas Comerciais",
+        "location":"IFSP - Cubatão",
+        "periodo": "2008 - 2009"
+      }]
+    },
+    "lingua":{
+      "title": "Línguas",
+      "list": [{
+        "title":"Português",
+        "level": "Nativo"
+      },{
+        "title":"Inglês",
+        "level": "Avançado"
+      }]
+    },
+    "translate":{
+      "url": "/en",
+      "flag": "images/us-icon-small.png",
+      "reflang": "en-us"
+    }
+
+
+  }
+}

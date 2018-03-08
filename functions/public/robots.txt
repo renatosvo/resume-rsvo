@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow:
+Allow: /
+Sitemap: http://rsvo.com.br/sitemap.xml
